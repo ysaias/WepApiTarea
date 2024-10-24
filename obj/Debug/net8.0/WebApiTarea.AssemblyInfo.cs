@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApiTarea")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5883500d837a750748e88e33cf88a362a317247d")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApiTarea")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebApiTarea")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

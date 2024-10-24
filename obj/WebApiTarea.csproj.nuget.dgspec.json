@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\source\\repos\\WebApiTarea\\WebApiTarea.csproj": {}
+    "C:\\Users\\LENOVO\\Desktop\\proyectos .NET\\WepApiTarea\\WebApiTarea.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\source\\repos\\WebApiTarea\\WebApiTarea.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\proyectos .NET\\WepApiTarea\\WebApiTarea.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\source\\repos\\WebApiTarea\\WebApiTarea.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\proyectos .NET\\WepApiTarea\\WebApiTarea.csproj",
         "projectName": "WebApiTarea",
-        "projectPath": "C:\\Users\\LENOVO\\source\\repos\\WebApiTarea\\WebApiTarea.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\proyectos .NET\\WepApiTarea\\WebApiTarea.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\source\\repos\\WebApiTarea\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\proyectos .NET\\WepApiTarea\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",

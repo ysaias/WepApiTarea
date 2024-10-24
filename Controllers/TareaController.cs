@@ -25,8 +25,22 @@ namespace WebApiTarea.Controllers
         public ActionResult<TareaDto> crear([FromBody] creacionTareaDto creacionTareaDto)
         {
             var nuevaTarea = _tareaService.CrearTarea(creacionTareaDto);
-            return Ok(nuevaTarea);
+            return Ok(nuevaTarea);  
         }
+
+        //Elimina la tarea por in indice
+        [HttpDelete("{id}")]
+        public IActionResult EliminarTarea(int id)
+        {
+            var eliminado = _tareaService.EliminarTarea(id);
+            if (!eliminado)
+            {
+                return NotFound();
+            }
+            return NoContent();
+        }
+
+
 
     }
 }

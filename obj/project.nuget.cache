@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gtek+0Hdi0w=",
+  "dgSpecHash": "zeBuHElEJiA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\source\\repos\\WebApiTarea\\WebApiTarea.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\proyectos .NET\\WepApiTarea\\WebApiTarea.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

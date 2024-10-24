@@ -49,8 +49,19 @@ namespace WebApiTarea.Services
             }
 
             return listaTareaDtos;
-
             
+        }
+
+        // Eliminar una tarea por ID
+        public bool EliminarTarea(int id)
+        {
+            var tarea = tareas.FirstOrDefault(t => t.Id == id);
+            if (tarea != null)
+            {
+                tareas.Remove(tarea);
+                return true;
+            }
+            return false;
         }
 
 
