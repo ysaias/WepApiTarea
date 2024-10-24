@@ -28,9 +28,9 @@ namespace WebApiTarea.Services
                 Estado = nuevaTarea.Estado
             };
 
-
             return tarea;
         }
+
 
         // Listar todas las tareas
         public List<TareaDto> ListarTareas()
@@ -52,6 +52,7 @@ namespace WebApiTarea.Services
             
         }
 
+
         // Eliminar una tarea por ID
         public bool EliminarTarea(int id)
         {
@@ -62,6 +63,51 @@ namespace WebApiTarea.Services
                 return true;
             }
             return false;
+        }
+
+
+        // Obtener tareas pendientes
+        public List<TareaDto> ObtenerTareasPendientes()
+        {
+
+            return tareas.Where(t => t.Estado == "Pendiente")
+                         .Select(t => ConvertirATareaDto(t))
+                         .ToList();
+        }
+
+
+        // Completar una tarea por ID
+        public TareaDto? CompletarTarea(int id)
+        {
+            var tarea = tareas.FirstOrDefault(t => t.Id == id);
+            if (tarea != null)
+            {
+                tarea.Estado = "Completada";
+                return ConvertirATareaDto(tarea);
+            }
+            return null;
+        }
+
+        // Completar una tarea por ID
+        public TareaDto? TareaEspecifica(int id)
+        {
+            var tarea = tareas.FirstOrDefault(t => t.Id == id);
+            if (tarea != null)
+            { 
+                return ConvertirATareaDto(tarea);
+            }
+            return null;
+        }
+
+        // Convertir Tarea a TareaDTO
+        public TareaDto ConvertirATareaDto(Tarea tarea)
+        {
+            return new TareaDto
+            {
+                Id = tarea.Id,
+                tarea = tarea.tarea,
+                Estado = tarea.Estado
+            };
         }
 
 
